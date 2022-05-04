@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Joti+One&family=Questrial&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #252525;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+}
+body {
+    text-align: center;
+}
+h1 {
+    margin: 10px;
+    font-weight: 400;
+}
+
+.quadrate {
+    text-align: center;
+    width: 40px;
+    background: #7BE26E;
+    display: inline-block;
+    padding: 30px;
+    font-size: 50px;
+    margin: 5px;
+    cursor: pointer;
+    color: #7BE26E;
+
+}
+
+.winner, .player {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#button--noclick{ 
+    padding: 12px 10px;
+    margin-top: 10px;
+    background: linear-gradient(to right, #7BE26E 50%, #7d38db 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease-out 1000ms;
+}
+
+.button--click {
+    background-position: left bottom !important;
+    color: #252525 !important;
+}
+
